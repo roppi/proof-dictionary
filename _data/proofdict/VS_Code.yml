@@ -1,0 +1,10 @@
+id: 01GR7N05ZJKWYXBP8TYDC1WTEE
+description: Visual Studio Code の略称
+expected: VS Code
+patterns:
+  - /vs\s?code/i
+allows: []
+specs:
+  - from: vscode
+    to: VS Code
+tags: []
