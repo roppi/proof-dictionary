@@ -1,0 +1,10 @@
+id: 01GR81MTX7G0JGZR08AFC7A6Z0
+description: 'Zenn.dev '
+expected: Zenn
+patterns:
+  - /zenn/i
+allows: []
+specs:
+  - from: zenn
+    to: Zenn
+tags: []
