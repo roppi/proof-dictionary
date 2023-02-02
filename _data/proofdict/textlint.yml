@@ -1,0 +1,10 @@
+id: 01GR8233HTRC223G3P4HX7GCS3
+description: お世話になってる textlint。TextLintとか text-lint とか間違えないように。
+expected: textlint
+patterns:
+  - '/text[ -]?lint/i'
+allows: []
+specs:
+  - from: Text lint
+    to: textlint
+tags: []
