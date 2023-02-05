@@ -1,0 +1,16 @@
+id: 01GRHVNQV86M3DEJ04P4TA8DW4
+description: Visual Studio Code Dev Containers。コンテナは複数形だよ。
+expected: Dev Containers
+patterns:
+  - '/dev\s?contai[ners]{3,4}/i'
+allows: []
+specs:
+  - from: devcontainers
+    to: Dev Containers
+  - from: dev containers
+    to: Dev Containers
+  - from: devcontainres
+    to: Dev Containers
+  - from: dev containrs
+    to: Dev Containers
+tags: []
