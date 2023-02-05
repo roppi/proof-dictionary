@@ -3,7 +3,9 @@ description: Visual Studio Code Dev Containers。コンテナは複数形だよ�
 expected: Dev Containers
 patterns:
   - '/dev\s?contai[ners]{3,4}/i'
-allows: []
+allows:
+  - .devcontainer
+  - devcontainer.json
 specs:
   - from: devcontainers
     to: Dev Containers
